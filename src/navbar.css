@@ -1,0 +1,88 @@
+.bgbody{
+    background: #161616;
+    backdrop-filter: blur(20px);
+    transition: all 0.5s ease;
+    border-bottom: 1px solid #303030;
+}
+.bg-slate{
+    background-color: #f8fafc;
+}
+.z-1000000{
+    z-index: 1000000;
+}
+.collapse.navbar-collapse .badge-dark {
+    background-color: #161616;
+    border: 1px solid #262626 !important;
+    list-style: none;
+}
+.color-text{
+    color: #CDCDCD;
+    font-size: 22px;
+}
+.btn-neutral {
+    color: #a3a3a3 !important;
+    text-decoration: none !important;
+    transition: all 0.3s ease !important;
+    -webkit-transition: all 0.3s ease !important;
+    -moz-transition: all 0.3s ease !important;
+    -ms-transition: all 0.3s ease !important;
+    -o-transition: all 0.3s ease !important;
+}
+
+.btn-neutral:hover {
+    color: #ffffff;
+}
+.navbar-nav {
+    display: flex;
+    padding-right: 0px;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.btn-gradient-orange {
+    background: linear-gradient(to right, #f97316, #ea580c) !important;
+    border: none !important;
+    transition: all 0.3s ease !important;
+    -webkit-transition: all 0.3s ease !important;
+    -moz-transition: all 0.3s ease !important;
+    -ms-transition: all 0.3s ease !important;
+    -o-transition: all 0.3s ease !important;
+}
+
+.btn-gradient-orange:hover {
+    filter: brightness(1.05);
+    transform: translateY(-1px);
+}
+.color-second{
+    color: #C36A08;
+}
+.smallp{
+    font-size: 13px;
+}
+.style-logo{
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+}
+.icon-btn {
+    background-color: #161616;
+    color: #737373;
+    border:1px solid transparent;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+}
+.collapse.navbar-collapse .btn-orange{
+    color: white;
+    background-color: #ea580c;
+    border-radius:25px;
+    -webkit-border-radius:25px;
+    -moz-border-radius:25px;
+    -ms-border-radius:25px;
+    -o-border-radius:25px;
+}
+.icon-btn:hover {
+    color: #f97316;
+    border: 1px solid #262626;
+}
