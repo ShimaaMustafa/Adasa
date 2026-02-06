@@ -17,7 +17,7 @@ const router = createBrowserRouter([
     {path: '*' , element: <NotFound/>}
   ]}
 ],
-{ basename: '/Adasa/' }
+{ basename: '/' }
 );
 export default function App() {
   return (
