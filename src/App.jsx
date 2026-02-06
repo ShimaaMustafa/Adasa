@@ -16,7 +16,9 @@ const router = createBrowserRouter([
     {path: 'privacy' , element: <Privacy/>},
     {path: '*' , element: <NotFound/>}
   ]}
-])
+],
+{ basename: '/Adasa/' }
+);
 export default function App() {
   return (
     <>

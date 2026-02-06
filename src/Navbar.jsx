@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink , Link} from 'react-router-dom'
+import Logo from './logo-GdqARQRt.png';
 import "./navbar.css"
 
 export default function Navbar() {
@@ -9,7 +10,7 @@ export default function Navbar() {
   <div className="container-fluid px-5">
     <div className="navbar-brand d-flex " >
         <div className='style-logo'>
-          <img className='w-100' src="../public/logo-GdqARQRt.png" alt="Adassa-logo" />
+          <img className='w-100' src={Logo} alt="Adassa-logo" />
           </div>
         <div className='w-50'>
           <h3 className='mb-0 color-text'>عدسة</h3>
